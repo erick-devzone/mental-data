@@ -194,7 +194,7 @@ blue
 
 
 /* Conn up right */
-.unit-19::after, .unit-20::before, .unit-21::after, .unit-25::after, .unit-25::after, .unit-26::after, .unit-27::after, .unit-28::after, .unit-29::after, .unit-32::after, .unit-33::after, .unit-34::after{
+.unit-19::after, .unit-20::before, .unit-21::after, .unit-25::after, .unit-26::after, .unit-27::after, .unit-28::after, .unit-29::after, .unit-32::after, .unit-33::after, .unit-34::after{
     position: absolute;
     content: "";
     left: 23.3px;
