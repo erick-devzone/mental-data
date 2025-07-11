@@ -68,246 +68,77 @@ blue
 
 /* ----------------------- */
 
-.unit-09, .unit-19 .unit-23 .unit-29, .unit-35 {
-    animation: memoryAnimation 1s steps(40, start) infinite, signals-g1 10s infinite;
+
+@keyframes signals-common {
+    0%, 20%, 50%, 55%, 75%, 100% {
+        background-color: rgb(255, 255, 0);
+    }
+    30% {
+        background-color: red;
+    }
+    62% {
+        background-color: blue;
+    }
+}
+
+.unit-09, .unit-19, .unit-23, .unit-29, .unit-35 {
+    animation: memoryAnimation 1s steps(40, start) infinite, signals-common 10s infinite;
 }
 
 .unit-3, .unit-10, .unit-17, .unit-25, .unit-32 {
-    animation: memoryAnimation 1s steps(40, start) infinite, signals-g2 7s infinite;
+    animation: memoryAnimation 1s steps(40, start) infinite, signals-common 7s infinite;
 }
 
-.unit-5, .unit-12, .unit-16 .unit-29, .unit-26 {
-    animation: memoryAnimation 1s steps(40, start) infinite, signals-g3 13s infinite;
-}
-
-
-@keyframes signals-g1 {
-    0% {
-        background-color: rgb(255, 255, 0);
-    }
-    20% {
-        background-color: rgb(255, 255, 0);
-    }
-    30% {
-        background-color: red;
-    }
-    50% {
-        background-color: rgb(255, 255, 0);
-    }
-    55% {
-        background-color: rgb(255, 255, 0);
-    }
-    62% {
-        background-color: blue;
-    }
-    75% {
-        background-color: rgb(255, 255, 0);
-    }
-    80% {
-        background-color: rgb(255, 255, 0);
-    }
-}
-
-@keyframes signals-g2 {
-    0% {
-        background-color: rgb(255, 255, 0);
-    }
-    20% {
-        background-color: rgb(255, 255, 0);
-    }
-    30% {
-        background-color: red;
-    }
-    50% {
-        background-color: rgb(255, 255, 0);
-    }
-    55% {
-        background-color: rgb(255, 255, 0);
-    }
-    62% {
-        background-color: blue;
-    }
-    75% {
-        background-color: rgb(255, 255, 0);
-    }
-    80% {
-        background-color: rgb(255, 255, 0);
-    }
-}
-
-@keyframes signals-g3 {
-    0% {
-        background-color: rgb(255, 255, 0);
-    }
-    20% {
-        background-color: rgb(255, 255, 0);
-    }
-    30% {
-        background-color: red;
-    }
-    50% {
-        background-color: rgb(255, 255, 0);
-    }
-    55% {
-        background-color: rgb(255, 255, 0);
-    }
-    62% {
-        background-color: blue;
-    }
-    75% {
-        background-color: rgb(255, 255, 0);
-    }
-    80% {
-        background-color: rgb(255, 255, 0);
-    }
+.unit-5, .unit-12, .unit-16, .unit-29, .unit-26 {
+    animation: memoryAnimation 1s steps(40, start) infinite, signals-common 13s infinite;
 }
 
 /* ---------------------------------------- */
 
 
-/* ------------------------------- */
+@keyframes memories {
+    0%, 20%, 50%, 55%, 75%, 100% {
+        background-color: rgb(255, 255, 0);
+    }
+    30% {
+        background-color: blue;
+    }
+    62% {
+        background-color: red;
+    }
+}
 
 .unit-6, .unit-11, .unit-18, .unit-21, .unit-30 {
-    animation: memoryAnimation 1s steps(40, start) infinite, memory-g1 10s infinite;
+    animation: memoryAnimation 1s steps(40, start) infinite, memories 10s infinite;
 }
 
 .unit-7, .unit-13, .unit-15, .unit-20, .unit-27 {
-    animation: memoryAnimation 1s steps(40, start) infinite, memory-g2 7s infinite;
+    animation: memoryAnimation 1s steps(40, start) infinite, memories 7s infinite;
 }
 
 .unit-2, .unit-08, .unit-22, .unit-28, .unit-33 {
-    animation: memoryAnimation 1s steps(40, start) infinite, memory-g3 13s infinite;
-}
-
-@keyframes memory-g1 {
-    0% {
-        background-color: rgb(255, 255, 0);
-    }
-    20% {
-        background-color: rgb(255, 255, 0);
-    }
-    30% {
-        background-color: blue;
-    }
-    50% {
-        background-color: rgb(255, 255, 0);
-    }
-    55% {
-        background-color: rgb(255, 255, 0);
-    }
-    62% {
-        background-color: red;
-    }
-    75% {
-        background-color: rgb(255, 255, 0);
-    }
-    80% {
-        background-color: rgb(255, 255, 0);
-    }
-}
-
-@keyframes memory-g2 {
-    0% {
-        background-color: rgb(255, 255, 0);
-    }
-    20% {
-        background-color: rgb(255, 255, 0);
-    }
-    30% {
-        background-color: blue;
-    }
-    50% {
-        background-color: rgb(255, 255, 0);
-    }
-    55% {
-        background-color: rgb(255, 255, 0);
-    }
-    62% {
-        background-color: red;
-    }
-    75% {
-        background-color: rgb(255, 255, 0);
-    }
-    80% {
-        background-color: rgb(255, 255, 0);
-    }
-}
-
-@keyframes memory-g3 {
-    0% {
-        background-color: rgb(255, 255, 0);
-    }
-    20% {
-        background-color: rgb(255, 255, 0);
-    }
-    30% {
-        background-color: blue;
-    }
-    50% {
-        background-color: rgb(255, 255, 0);
-    }
-    55% {
-        background-color: rgb(255, 255, 0);
-    }
-    62% {
-        background-color: red;
-    }
-    75% {
-        background-color: rgb(255, 255, 0);
-    }
-    80% {
-        background-color: rgb(255, 255, 0);
-    }
+    animation: memoryAnimation 1s steps(40, start) infinite, memories 13s infinite;
 }
 
 
 /* ---------------------------- */
 
-.unit-4, .unit-14, .unit-24, .unit-34 {
-    animation: memoryAnimation 1s steps(40, start) infinite, a-fading-memory-effect 10s infinite;
+
+@keyframes fading-memory{
+    0%, 31%, 50%, 65%, 100% {
+        opacity: 1;
+    }
+    20%, 27%, 29%, 30% {
+        background-color: #ccc;
+        opacity: 0.5;
+    }
+    24%, 45%, 54% {
+        opacity: 0;
+    }
 }
 
-@keyframes a-fading-memory-effect{
-    0% {
-        opacity: 1;
-    }
-    20% {
-        background-color: #ccc;
-        opacity: 0.5;
-    }
-    24% {
-        opacity: 0;
-    }
-    27% {
-        background-color: #ccc;
-        opacity: 0.5;
-    }
-    29% {
-        background-color: #ccc;
-        opacity: 0;
-    }
-    31% {
-        opacity: 1;
-    }
-    30% {
-        background-color: #ccc;
-        opacity: 0;
-    }
-    45% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    54% {
-        opacity: 0;
-    }
-    65% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
+.unit-4, .unit-14, .unit-24, .unit-34 {
+    animation: memoryAnimation 1s steps(40, start) infinite, fading-memory 10s infinite;
 }
 
 /* 
