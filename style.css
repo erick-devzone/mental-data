@@ -141,37 +141,22 @@ blue
     animation: memoryAnimation 1s steps(40, start) infinite, fading-memory 10s infinite;
 }
 
-/* 
 
-    Conections
-    
-    To right
 
-.unit-0::after{
+/* To bottom */
+.unit-2::before, .unit-5::after{
     position: absolute;
     content: "";
-    left: 5px;
-    top: 2.5px;
-    width: 37px;
-    height: 0.1px;
+    right: 2.5px;
+    top: 5px;
+    width: 0.1px;
+    height: 37px;
     background-color: black;
 }
 
-    To left
 
-.unit-0::before{
-    position: absolute;
-    content: "";
-    right: 5px;
-    top: 2.5px;
-    width: 36.5px;
-    height: 0.1px;
-    background-color: black;
-}
-
-    To up
-
-.unit-0::after{
+/* To up */
+.unit-32::before, .unit-35::after{
     position: absolute;
     content: "";
     right: 2.5px;
@@ -181,293 +166,9 @@ blue
     background-color: black;
 }
 
-
-    To bottom
-
-.unit-0::before{
-    position: absolute;
-    content: "";
-    right: 2.5px;
-    top: 5px;
-    width: 0.1px;
-    height: 37px;
-    background-color: black;
-}
-
-
-    Conn up left
-
-.unit-0::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-    Conn up right
-
-.unit-0::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-
-    Conn down left
-
-.unit-0::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-    conn down right
-
-.unit-0::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-*/
-
-.unit-2::before{
-    position: absolute;
-    content: "";
-    right: 2.5px;
-    top: 5px;
-    width: 0.1px;
-    height: 37px;
-    background-color: black;
-}
-
-.unit-2::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-3::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-3::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-4::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-4::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-5::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-5::after{
-    position: absolute;
-    content: "";
-    right: 2.5px;
-    top: 5px;
-    width: 0.1px;
-    height: 37px;
-    background-color: black;
-}
-
-.unit-7::before{
-    position: absolute;
-    content: "";
-    left: 5px;
-    top: 2.5px;
-    width: 37px;
-    height: 0.1px;
-    background-color: black;
-}
-
-.unit-7::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-8::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-8::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-9::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-9::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-10::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-10::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-11::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-11::after{
-    position: absolute;
-    content: "";
-    left: -3.5px;
-    top: 23.3px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-12::before{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-12::after{
-    position: absolute;
-    content: "";
-    right: 5px;
-    top: 2.5px;
-    width: 36.5px;
-    height: 0.1px;
-    background-color: black;
-}
 
 /* conn down right */
-.unit-13::after{
+.unit-2::after, .unit-3::after, .unit-4::after, .unit-7::after, .unit-8::after, .unit-9::after, .unit-10::after, .unit-11::after, .unit-13::after{
     position: absolute;
     content: "";
     left: -3.5px;
@@ -478,8 +179,9 @@ blue
     background-color: black;
 }
 
-/* conn down left */
-.unit-17::after{
+
+/* Conn down left */
+.unit-3::before, .unit-4::before, .unit-5::before, .unit-8::before, .unit-9::before, .unit-10::before, .unit-11::before, .unit-12::before, .unit-17::after, .unit-18::after{
     position: absolute;
     content: "";
     right: 23.5px;
@@ -490,18 +192,9 @@ blue
     background-color: black;
 }
 
-.unit-18::after{
-    position: absolute;
-    content: "";
-    right: 23.5px;
-    top: -3.8px;
-    width: 0.1px;
-    height: 54.2px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
 
-.unit-19::after{
+/* Conn up right */
+.unit-19::after, .unit-20::before, .unit-21::after, .unit-25::after, .unit-25::after, .unit-26::after, .unit-27::after, .unit-28::after, .unit-29::after, .unit-32::after, .unit-33::after, .unit-34::after{
     position: absolute;
     content: "";
     left: 23.3px;
@@ -512,75 +205,9 @@ blue
     background-color: black;
 }
 
-.unit-20::before{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
 
-/* conn-up-right */
-.unit-21::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-21::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-/* conn-up-left */
-.unit-22::after{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-23::after{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-24::after{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-25::before{
+/* To right */
+.unit-7::before, .unit-25::before{
     position: absolute;
     content: "";
     left: 5px;
@@ -590,117 +217,9 @@ blue
     background-color: black;
 }
 
-.unit-25::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
 
-.unit-26::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-26::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-27::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-27::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-28::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-28::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-29::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-29::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-30::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-30::after{
+/* To left */
+.unit-12::after, .unit-30::after{
     position: absolute;
     content: "";
     right: 5px;
@@ -710,28 +229,9 @@ blue
     background-color: black;
 }
 
-.unit-32::before{
-    position: absolute;
-    content: "";
-    right: 2.5px;
-    bottom: 5px;
-    width: 0.1px;
-    height: 37px;
-    background-color: black;
-}
 
-.unit-32::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-33::before{
+/* Conn up left */
+.unit-21::before, .unit-22::after, .unit-23::after, .unit-24::after, .unit-26::before, .unit-27::before, .unit-28::before, .unit-29::before, .unit-30::before, .unit-33::before, .unit-34::before, .unit-35::before{
     position: absolute;
     content: "";
     right: -3.5px;
@@ -739,59 +239,5 @@ blue
     width: 53.8px;
     height: 0.1px;
     transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-33::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-34::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-34::after{
-    position: absolute;
-    content: "";
-    left: 23.3px;
-    bottom: -3.6px;
-    width: 0.1px;
-    height: 54px;
-    transform: rotate(44.5deg);
-    background-color: black;
-}
-
-.unit-35::before{
-    position: absolute;
-    content: "";
-    right: -3.5px;
-    top: -18.5px;
-    width: 53.8px;
-    height: 0.1px;
-    transform: rotate(45.5deg);
-    background-color: black;
-}
-
-.unit-35::after{
-    position: absolute;
-    content: "";
-    right: 2.5px;
-    bottom: 5px;
-    width: 0.1px;
-    height: 37px;
     background-color: black;
 }
