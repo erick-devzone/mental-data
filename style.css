@@ -81,7 +81,7 @@ blue
     }
 }
 
-.unit-09, .unit-19, .unit-23, .unit-29, .unit-35 {
+.unit-9, .unit-19, .unit-23, .unit-29, .unit-35 {
     animation: memoryAnimation 1s steps(40, start) infinite, signals-common 10s infinite;
 }
 
@@ -116,7 +116,7 @@ blue
     animation: memoryAnimation 1s steps(40, start) infinite, memories 7s infinite;
 }
 
-.unit-2, .unit-08, .unit-22, .unit-28, .unit-33 {
+.unit-2, .unit-8, .unit-22, .unit-28, .unit-33 {
     animation: memoryAnimation 1s steps(40, start) infinite, memories 13s infinite;
 }
 
